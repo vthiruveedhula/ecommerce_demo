@@ -47,7 +47,30 @@ blocks
 horizontal line with at least 3 hyphens
 
 checkbox
-- []  html
+- [ ]  html
 - [X] json
-- [] xml
-- [] JS
+- [ ] xml
+- [ ] JS
+
+Table format
+| col1 | col2 | col3 |
+| ---  | ---  | ---  |
+| 111  | 121  | 131  |
+| 211  | 221  | 231  |
+| 311  | 321  | 331  |
+
+code block using three back ticks
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport", content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h2>Welcome to Ecommerce Site</h2>
+        <nav>This is navigation</nav>
+    </body>
+</html>
+```
